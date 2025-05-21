@@ -2,7 +2,7 @@
 给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合。
 """
 class Solution:
-    def combine(self, n: int, k: int):
+    def combine(self, n, k):
         #返回值
         result = []
         self.backtracing(n, k ,1, [], result) #初始参数
